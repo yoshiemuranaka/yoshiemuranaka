@@ -53,4 +53,6 @@ gulp.task('nodemon', function (cb) {
 });
 
 
-gulp.task('default', [ 'build:styles']);
+gulp.task('default', [ 'build:styles', 'browser-sync']);
+
+
